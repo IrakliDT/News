@@ -149,15 +149,14 @@ button{
 
 .burger-menu{
   display: none;
-  height: 6vh;
-  z-index: 1;
+  height: 3vh;
 }
 
 #burger {
   position: relative;
   margin: 20px 0 0 40px;
   height: 30px;
-  width: 60px;
+  width: 40px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -230,6 +229,9 @@ button{
   flex-direction: column;
   background-color: #FFFFFF;
   width: auto;
+}
+#menu ul li{
+  height: 60px;
 }
 
 #menu ul li a {

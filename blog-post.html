@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <input type="text" id="blogName" class="form-control" placeholder="Blog Name">
+                </div>
+                <div class="col-12 mt-5">
+                    <textarea type="text" id="blogDesc" class="form-control" placeholder="Blog Description">
+                    </textarea>        
+                </div>
+                <div class="col-12 mt-5">
+                    <input type="file" id="blogImg" class="form-control" placeholder="Blog Img">
+                </div>
+            </div>
+            <input type="submit" id="createBlog" class="btn btn-primary mt-5" value="Create Blog">
+        </form>
+    </div>
+    <script src="/src/js/blog.js" type="module"></script>
+</body>
+</html>
